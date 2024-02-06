@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#ff0000,#ffff00);
+}
+
+
+.bgColor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+.gradient-options {
+    text-align: center;
+}
+
+#gradient {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.color-choice{
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    background-color: #f7f7f7;
+}
+
+.color-choice input[type="color"]{
+    width: 70px;
+    height: 25px;
+}
+
+
+
